@@ -103,9 +103,69 @@ li{
     color: white;
     font-family: Helvetica, Helvetica, sans-serif;
 }
-.kepek img{
-    border-radius: 20px;
+.kepek{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 30px;
+}
+.kepek img{
+    border-radius: 35px;
+    max-width: 100%;
+    width: auto;
+    padding: none;
+}
+
+.tartalom3{
+    background-color: rgb(26, 25, 25);
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+}
+li{
+    color: white;
+    font-family: Helvetica, Helvetica, sans-serif;
+}
+.kepek2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.kepek2 img{
+    border-radius: 35px;
+    max-width: 100%;
+    width: auto;
+    padding: none;
+}
+
+article{
+    background-color: rgb(26, 25, 25);
+    height: 50vh;
+    background-size: cover;
+    padding: 30px;
+}
+section{
+    background-color: rgb(255, 254, 254);
+}
+
+section h2{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: Helvetica, Helvetica, sans-serif;
+    font-weight: normal;
+}
+section p{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: Helvetica, Helvetica, sans-serif;
+}
+section a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Helvetica, Helvetica, sans-serif;
+}
+section li{
+    background-color: rgb(230, 117, 12);
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
 }
