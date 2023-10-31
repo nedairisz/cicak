@@ -88,7 +88,7 @@ p{
 
 .tartalom2{
     background-color: rgb(26, 25, 25);
-    height: 100vh;
+    height: 8%;
     background-size: cover;
     padding: 30px;
 }
@@ -117,7 +117,7 @@ li{
 
 .tartalom3{
     background-color: rgb(26, 25, 25);
-    height: 100vh;
+    height: 80%;
     background-size: cover;
     padding: 30px;
 }
@@ -137,35 +137,68 @@ li{
     padding: none;
 }
 
-article{
+
+
+
+.tartalom4{
     background-color: rgb(26, 25, 25);
-    height: 50vh;
+    height: 60vh;
     background-size: cover;
     padding: 30px;
 }
-section{
+.par{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.ablak{
     background-color: rgb(255, 254, 254);
+    border-radius: 35px;
+    padding: 10px;
 }
-
-section h2{
+.ablak h2{
     color: rgb(0, 0, 0);
     text-align: left;
     font-family: Helvetica, Helvetica, sans-serif;
-    font-weight: normal;
+    font-weight: bold
 }
-section p{
+.ablak p{
     color: rgb(0, 0, 0);
     text-align: left;
     font-family: Helvetica, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-section a{
+.ablak a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Helvetica, Helvetica, sans-serif;
 }
-section li{
+.ablak li{
     background-color: rgb(230, 117, 12);
     padding: 15px;
     border-radius: 20px;
     text-align: center;
+}
+.ablak ul{
+    padding: 0 20px 0 20px;
+}
+.kepek3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.kepek3 img{
+    border-radius: 35px;
+    max-width: 100%;
+    width: auto;
+    padding: none;
+}
+
+
+.tartalom5{
+    background-color: rgb(26, 25, 25);
+    height: 60vh;
+    background-size: cover;
+    padding: 30px;
 }
