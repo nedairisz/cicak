@@ -112,7 +112,7 @@ li{
     border-radius: 35px;
     max-width: 100%;
     width: auto;
-    padding: none;
+    padding: 0;
 }
 
 .tartalom3{
@@ -134,7 +134,7 @@ li{
     border-radius: 35px;
     max-width: 100%;
     width: auto;
-    padding: none;
+    padding: 0;
 }
 
 
@@ -192,7 +192,7 @@ li{
     border-radius: 35px;
     max-width: 100%;
     width: auto;
-    padding: none;
+    padding: 0;
 }
 
 
@@ -201,4 +201,11 @@ li{
     height: 60vh;
     background-size: cover;
     padding: 30px;
+}
+
+.felirat{
+    position: absolute;
+    bottom: 8px;
+    left: 10%;
+    color: white;
 }
